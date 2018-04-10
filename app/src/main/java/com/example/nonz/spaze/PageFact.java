@@ -10,6 +10,6 @@ public class PageFact extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_fact);
 
-        //asdasdassadasd
+
     }
 }
