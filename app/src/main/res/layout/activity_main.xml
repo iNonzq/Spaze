@@ -6,6 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+
     tools:context="com.example.nonz.spaze.MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="149dp"
+        android:layout_height="77dp"
+        app:srcCompat="@drawable/icon_course"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
