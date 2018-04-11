@@ -20,7 +20,7 @@
         <activity android:name=".PagePlanet" />
         <activity android:name=".PageCourse" />
         <activity android:name=".PageSchedule" />
-        <activity android:name=".PageSetting"></activity>
+        <activity android:name=".PageSetting" />
     </application>
 
 </manifest>
