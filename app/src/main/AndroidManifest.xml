@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PageFact" />
-        <activity android:name=".PagePlanet"></activity>
+        <activity android:name=".PagePlanet" />
+        <activity android:name=".PageCourse"></activity>
     </application>
 
 </manifest>
