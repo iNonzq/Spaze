@@ -9,19 +9,55 @@
 
     tools:context="com.example.nonz.spaze.MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="106dp"
-        android:layout_height="52dp"
-        android:background="@drawable/icon_course"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="106dp"
-        android:layout_height="52dp"
-        android:background="@drawable/icon_planet"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="0dp" />
+        <ImageButton
+            android:id="@+id/scheduleBtt"
+            android:layout_width="83dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_schedule"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageButton
+            android:id="@+id/setBtt"
+            android:layout_width="83dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_setting"
+            tools:layout_editor_absoluteX="305dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageButton
+            android:id="@+id/mainBtt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_main"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/planetBtt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_planet"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageButton
+            android:id="@+id/courseBtt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_course"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
