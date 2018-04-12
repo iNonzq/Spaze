@@ -7,4 +7,37 @@
     android:background="@drawable/bg"
     tools:context="com.example.nonz.spaze.PageFact">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="163dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fact1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/kiddish"
+            android:text="Space is not far away."
+            android:textColor="#b3b3b3"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kiddish"
+            android:text="   Space officially begins at the universal marker of the Karman Line. This invisible boundary is 100 km above the Earth. In theory if you could drive your car upwards, you could be in space in less than hour."
+            android:textColor="#b3b3b3"
+            android:textSize="30dp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
