@@ -22,5 +22,7 @@
         <activity android:name=".PageSchedule" />
         <activity android:name=".PageSetting" />
     </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
