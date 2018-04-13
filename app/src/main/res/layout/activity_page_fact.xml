@@ -14,11 +14,6 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
             android:layout_height="358dp"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="154dp"
@@ -30,7 +25,8 @@
                 android:layout_height="163dp"
                 android:adjustViewBounds="false"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/fact1" />
+                app:srcCompat="@drawable/fact1"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -38,18 +34,18 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/dk_display_patrol"
-                android:text="Space is not far away."
+                android:text="@string/space_is_not_far_away"
                 android:textColor="#ffffff"
-                android:textSize="30dp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/gravity_regular"
-                android:text="     Space officially begins at the universal marker of the Karman Line. This invisible boundary is 100 km above the Earth. In theory if you could drive your car upwards, you could be in space in less than hour."
+                android:text="@string/space_officially_begins_at_the_universal_marker_of_the_karman_line_this_invisible_boundary_is_100_km_above_the_earth_in_theory_if_you_could_drive_your_car_upwards_you_could_be_in_space_in_less_than_hour"
                 android:textColor="#ffffff"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
 
         </LinearLayout>
