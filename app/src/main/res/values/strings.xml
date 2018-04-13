@@ -3,4 +3,7 @@
     <string name="username_text">Username</string>
     <string name="pass_text">Password</string>
     <string name="login_button">Log In</string>
+    <string name="space_officially_begins_at_the_universal_marker_of_the_karman_line_this_invisible_boundary_is_100_km_above_the_earth_in_theory_if_you_could_drive_your_car_upwards_you_could_be_in_space_in_less_than_hour">Space officially begins at the universal marker of the Karman Line. This invisible boundary is 100 km above the Earth. In theory if you could drive your car upwards, you could be in space in less than hour.</string>
+    <string name="space_is_not_far_away">Space is not far away.</string>
+    <string name="todo">TODO</string>
 </resources>
