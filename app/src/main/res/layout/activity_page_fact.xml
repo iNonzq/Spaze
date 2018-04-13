@@ -9,8 +9,9 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
+        android:layout_height="612dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="24dp">
 
         <ScrollView
             android:layout_width="fill_parent"
@@ -25,8 +26,90 @@
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="38dp">
 
+                <!-- fact 5 -->
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="244dp"
+                    app:srcCompat="@drawable/fact5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="Light year and AU (Astronomical unit)"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gravity_regular"
+                    android:lineSpacingExtra="-4dp"
+                    android:text="Light year is a measure of distance, not time. It is the distance that light travels during one Earth year ( The speed of light is 300,000km/s, which means that this is a very, tremendously, amazingly huge distance of over 9.5 trillion km), AU, or astronomical unit is the distance between the Sun and the Earth, and it measures 8 light minutes and 19 light seconds, or 149.597 million kilometers in humans-can-achieve-it units."
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <!-- fact 4 -->
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    app:srcCompat="@drawable/fact4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="One million Earths could fit inside the Sun."
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gravity_regular"
+                    android:lineSpacingExtra="-4dp"
+                    android:text="Ancient astronomers once believed the Earth was at the centre of the Universe but now we know that the Sun is at the centre of our Solar System and our planets orbit the Sun. The Sun makes up 99.8% of the entire mass of the whole Solar System. One million Earths would be needed to be the same size as the Sun."
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <!-- fact3 -->
                 <ImageView
                     android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fact3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="Uranus is tilted on its side"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gravity_regular"
+                    android:lineSpacingExtra="-4dp"
+                    android:text="Uranus appears to be a featureless blue ball upon first glance, but this gas giant of the outer solar system is pretty weird upon closer inspection. First, the planet rotates on its side for reasons scientists haven't quite figured out. The most likely explanation is that it underwent some sort of one or more titanic collisions in the ancient past. In any case, the tilt makes Uranus unique among the solar system planets."
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <!-- fact 2 -->
+                <ImageView
+                    android:id="@+id/imageView2"
                     android:layout_width="324dp"
                     android:layout_height="179dp"
                     android:layout_gravity="center"
@@ -44,7 +127,7 @@
 
                 <TextView
                     android:layout_width="350dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="129dp"
                     android:layout_gravity="center"
                     android:fontFamily="@font/gravity_regular"
                     android:text=" This is tricky one to get your head around but a year on Venus (that is the length of time it takes to complete one full orbit around the Sun) is 224.7 Earth days. However it takes 243 Earth days to rotate on its axis just once.
@@ -52,6 +135,7 @@
                     android:textColor="#ffffff"
                     android:textSize="15sp" />
 
+                <!-- fact 1 -->
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
