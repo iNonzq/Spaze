@@ -10,61 +10,53 @@
     tools:context="com.example.nonz.spaze.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/courseBtt"
-                android:layout_width="85dp"
-                android:layout_height="43dp"
-                android:layout_weight="1"
-                android:background="@drawable/icon_course"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="7dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/planetBtt"
-                android:layout_width="85dp"
-                android:layout_height="43dp"
-                android:layout_weight="1"
-                android:background="@drawable/icon_planet"
-                tools:layout_editor_absoluteX="80dp"
-                tools:layout_editor_absoluteY="7dp" />
+                <ImageButton
+                    android:id="@+id/mainBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="357dp"
+                    android:elevation="0dp"
+                    app:srcCompat="@drawable/mainpageh" />
 
-            <ImageButton
-                android:id="@+id/mainBtt"
-                android:layout_width="50dp"
-                android:layout_height="51dp"
-                android:layout_weight="1"
-                android:background="@drawable/icon_main"
-                tools:layout_editor_absoluteX="162dp"
-                tools:layout_editor_absoluteY="0dp" />
+                <ImageButton
+                    android:id="@+id/courseBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/mainpage1" />
 
-            <ImageButton
-                android:id="@+id/scheduleBtt"
-                android:layout_width="83dp"
-                android:layout_height="40dp"
-                android:layout_weight="1"
-                android:background="@drawable/icon_schedule"
-                tools:layout_editor_absoluteX="222dp"
-                tools:layout_editor_absoluteY="7dp" />
+                <ImageButton
+                    android:id="@+id/planetBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/mainpage2" />
 
-            <ImageButton
-                android:id="@+id/setBtt"
-                android:layout_width="83dp"
-                android:layout_height="40dp"
-                android:layout_weight="1"
-                android:background="@drawable/icon_setting"
-                tools:layout_editor_absoluteX="305dp"
-                tools:layout_editor_absoluteY="7dp" />
+                <ImageButton
+                    android:id="@+id/scheduleBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/mainpage3" />
 
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/setBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/mainpage4" />
+
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

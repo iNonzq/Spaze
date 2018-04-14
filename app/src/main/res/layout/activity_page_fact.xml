@@ -7,48 +7,175 @@
     android:background="@drawable/bg_2"
     tools:context="com.example.nonz.spaze.PageFact">
 
-    <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
-        <LinearLayout
+        android:orientation="vertical">
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="358dp"
-            android:orientation="vertical"
-            tools:layout_editor_absoluteX="154dp"
-            tools:layout_editor_absoluteY="157dp">
+            android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="163dp"
-                android:adjustViewBounds="false"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/fact1"
-                android:contentDescription="@string/todo" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="358dp"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteX="154dp"
+                tools:layout_editor_absoluteY="157dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/dk_display_patrol"
-                android:text="@string/space_is_not_far_away"
-                android:textColor="#ffffff"
-                android:textSize="30sp" />
+                <!-- fact1 -->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="163dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/fact1" />
 
-            <TextView
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/gravity_regular"
-                android:text="@string/space_officially_begins_at_the_universal_marker_of_the_karman_line_this_invisible_boundary_is_100_km_above_the_earth_in_theory_if_you_could_drive_your_car_upwards_you_could_be_in_space_in_less_than_hour"
-                android:textColor="#ffffff"
-                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="Space is not far away."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/timkid"
+                    android:lineSpacingExtra="-2dp"
+                    android:text="    Space officially begins at the universal marker of the Karman Line. This invisible boundary is 100 km above the Earth. In theory if you could drive your car upwards, you could be in space in less than hour.
+"
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
+
+                <!-- fact2 -->
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="182dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/fact2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="Uranus is tilted on its side"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/timkid"
+                    android:lineSpacingExtra="-2dp"
+                    android:text="     Uranus appears to be a featureless blue ball upon first glance, but this gas giant of the outer solar system is pretty weird upon closer inspection. First, the planet rotates on its side for reasons scientists haven't quite figured out. The most likely explanation is that it underwent some sort of one or more titanic collisions in the ancient past. In any case, the tilt makes Uranus unique among the solar system planets. "
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
+
+                <!-- fact 3 -->
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="182dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/fact3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="On Venus, a day is longer than a year."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/timkid"
+                    android:lineSpacingExtra="-2dp"
+                    android:text="    This is tricky one to get your head around but a year on Venus (that is the length of time it takes to complete one full orbit around the Sun) is 224.7 Earth days. However it takes 243 Earth days to rotate on its axis just once."
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
+
+                <!-- fact 4 -->
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/fact4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="One million Earths could fit inside the Sun."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/timkid"
+                    android:lineSpacingExtra="-2dp"
+                    android:text="     Ancient astronomers once believed the Earth was at the centre of the Universe but now we know that the Sun is at the centre of our Solar System and our planets orbit the Sun. The Sun makes up 99.8% of the entire mass of the whole Solar System. One million Earths would be needed to be the same size as the Sun. "
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
+
+                <!-- fact 5 -->
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="207dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/fact5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dk_display_patrol"
+                    android:text="Light year and AU (Astronomical unit) "
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/timkid"
+                    android:lineSpacingExtra="-2dp"
+                    android:text="     Light year is a measure of distance, not time. It is the distance that light travels during one Earth year ( The speed of light is 300,000km/s, which means that this is a very, tremendously, amazingly huge distance of over 9.5 trillion km), AU, or astronomical unit is the distance between the Sun and the Earth, and it measures 8 light minutes and 19 light seconds, or 149.597 million kilometers in humans-can-achieve-it units. "
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
 
 
-        </LinearLayout>
+            </LinearLayout>
 
-    </ScrollView>
+        </ScrollView>
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
