@@ -27,32 +27,32 @@
                     android:id="@+id/mainBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="357dp"
-                    android:elevation="0dp"
-                    app:srcCompat="@drawable/mainpageh" />
+                    android:background="@drawable/mainpageh"
+                    android:elevation="0dp" />
 
                 <ImageButton
                     android:id="@+id/planetBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="175dp"
-                    app:srcCompat="@drawable/mainpage2" />
+                    android:background="@drawable/mainpage1" />
 
                 <ImageButton
                     android:id="@+id/courseBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="175dp"
-                    app:srcCompat="@drawable/mainpage1" />
+                    android:background="@drawable/mainpage2" />
 
                 <ImageButton
                     android:id="@+id/scheduleBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="175dp"
-                    app:srcCompat="@drawable/mainpage3" />
+                    android:background="@drawable/mainpage3" />
 
                 <ImageButton
                     android:id="@+id/setBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="175dp"
-                    app:srcCompat="@drawable/mainpage4" />
+                    android:background="@drawable/mainpage4" />
 
             </LinearLayout>
         </ScrollView>
