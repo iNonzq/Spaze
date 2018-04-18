@@ -6,34 +6,138 @@
     android:layout_height="match_parent"
     tools:context="com.example.nonz.spaze.PagePlanet">
 
-    <TableLayout
-        android:layout_width="181dp"
-        android:layout_height="179dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TableRow
-            android:layout_width="366dp"
+        <ScrollView
+            android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                    <ImageButton
+                        android:id="@+id/SunBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/asun"
+                        android:scaleType="fitXY" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
+                    <ImageButton
+                        android:id="@+id/MerBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/amercury"
+                        android:scaleType="fitXY" />
 
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="183dp"
-        android:layout_height="178dp"
-        app:srcCompat="@drawable/asun"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/VenBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/avenus"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/EthBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/aearth"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/MarBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/amars"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/SatBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/asaturn"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/JupBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ajupiter"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/UraBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/auranus"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/NepBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/aneptune"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/PluBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/apluto"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
