@@ -31,16 +31,16 @@
                     app:srcCompat="@drawable/mainpageh" />
 
                 <ImageButton
-                    android:id="@+id/courseBtt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="175dp"
-                    app:srcCompat="@drawable/mainpage1" />
-
-                <ImageButton
                     android:id="@+id/planetBtt"
                     android:layout_width="wrap_content"
                     android:layout_height="175dp"
                     app:srcCompat="@drawable/mainpage2" />
+
+                <ImageButton
+                    android:id="@+id/courseBtt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/mainpage1" />
 
                 <ImageButton
                     android:id="@+id/scheduleBtt"

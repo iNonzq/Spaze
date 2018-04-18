@@ -2,6 +2,6 @@
     <string name="app_name">Spaze</string>
     <string name="username_text">Username</string>
     <string name="pass_text">Password</string>
-    <string name="login_button">Log In</string>
+    <string name="login_button">LogIn</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
 </resources>
