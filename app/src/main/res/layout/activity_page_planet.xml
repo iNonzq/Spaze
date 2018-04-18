@@ -33,18 +33,20 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+                    <!-- Sun -->
                     <ImageButton
                         android:id="@+id/SunBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/asun"
                         android:scaleType="fitXY" />
 
+                    <!-- Mercury -->
                     <ImageButton
                         android:id="@+id/MerBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/amercury"
                         android:scaleType="fitXY" />
@@ -57,18 +59,20 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+                    <!-- Venus -->
                     <ImageButton
                         android:id="@+id/VenBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/avenus"
                         android:scaleType="fitXY" />
 
+                    <!-- Earth -->
                     <ImageButton
                         android:id="@+id/EthBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/aearth"
                         android:scaleType="fitXY" />
@@ -80,18 +84,20 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+                    <!-- Mars -->
                     <ImageButton
                         android:id="@+id/MarBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/amars"
                         android:scaleType="fitXY" />
 
+                    <!-- Saturn -->
                     <ImageButton
                         android:id="@+id/SatBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/asaturn"
                         android:scaleType="fitXY" />
@@ -103,18 +109,20 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+                    <!-- Jupiter -->
                     <ImageButton
                         android:id="@+id/JupBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/ajupiter"
                         android:scaleType="fitXY" />
 
+                    <!-- Uranus -->
                     <ImageButton
                         android:id="@+id/UraBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/auranus"
                         android:scaleType="fitXY" />
@@ -126,18 +134,20 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+                    <!-- Neptune -->
                     <ImageButton
                         android:id="@+id/NepBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/aneptune"
                         android:scaleType="fitXY" />
 
+                    <!-- Pluto -->
                     <ImageButton
                         android:id="@+id/PluBtn"
                         android:layout_width="wrap_content"
-                        android:layout_height="180dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:background="@drawable/apluto"
                         android:scaleType="fitXY" />
