@@ -13,14 +13,14 @@ import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
     Dialog Sun_dia;
-    ImageButton SunBtn,closeBtn;
+    ImageButton s1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_planet);
 
-        SunBtn = (ImageButton) findViewById(R.id.SunBtn);
-        SunBtn.setOnClickListener(new View.OnClickListener() {
+        s1 = (ImageButton) findViewById(R.id.SunBtn);
+        s1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ShowPopup();
@@ -28,18 +28,18 @@ public class PagePlanet extends AppCompatActivity {
         });
     }
     public void ShowPopup() {
+        ImageButton c1;
         Sun_dia = new Dialog(PagePlanet.this);
         Sun_dia.setContentView(R.layout.sun_dialog);
 
-        closeBtn = (ImageButton) findViewById(R.id.closebtn);
-        closeBtn.setEnabled(true);
-        closeBtn.setOnClickListener(new View.OnClickListener() {
+        c1 = (ImageButton) Sun_dia.findViewById(R.id.closebtn);
+        c1.setEnabled(true);
+        c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Sun_dia.cancel();
+                Sun_dia.dismiss();
             }
         });
-        Sun_dia.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         Sun_dia.show();
     }
 }
