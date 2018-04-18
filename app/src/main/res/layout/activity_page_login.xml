@@ -86,6 +86,7 @@
             tools:layout_editor_absoluteX="224dp"
             tools:layout_editor_absoluteY="377dp" />
     </RelativeLayout><![CDATA[
+<<<<<<< HEAD
 =======
     android:layout_height="603dp"
     android:background="@drawable/bg_login">
@@ -99,6 +100,16 @@
     >>>>>>> 7b4a84cb956873514137ee0107079a7ba9f37e47
 
 
+=======
+
+    android:layout_height="603dp"
+    android:background="@drawable/bg_login">
+
+
+
+
+>>>>>>> 7b4a84cb956873514137ee0107079a7ba9f37e47
+>>>>>>> 288551a5e49b06524bf681371f216b97a2b836b3
 
     ]]>
 </android.support.constraint.ConstraintLayout>
