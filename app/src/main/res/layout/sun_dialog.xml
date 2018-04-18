@@ -7,8 +7,6 @@
     android:background="@color/purplebg"
     android:layout_gravity="center"
     android:padding="5dp">
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
 
     <ScrollView
@@ -25,7 +23,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_gravity="right"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/close" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/circlesun" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -38,13 +43,52 @@
                 android:textSize="20dp"/>
 
             <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geosanslight"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Overview Star type: Yellow Dwarf" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geosanslight"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Age: ~4.5 billion years " />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geosanslight"
+                android:text="About Sun"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/gravity_regular"
+                android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
                 android:textColor="@color/white"
-                android:text="Overview Star type: Yellow Dwarf Age: ~4.5 billion years Distance from galactic center: 26,000 light years   About Sun Biggest If the Sun were as tall as a typical front door, Earth would be about the size of a nickel. Most Massive The sun is the center of our solar system and makes up 99.8 percent of the mass of the entire solar system. Different Spins At the equator, the Sun spins once about every 25 days, but at its poles the Sun rotates once on its axis every 35 Earth days. Can’t Stand on It As a star, the Sun is a ball of gas held together by its own gravity. Ringless The Sun does not have any rings. Under Study Many spacecraft constantly observe the Sun, helping us keep an eye on space weather that can effect satellites and astronauts. Energy for Life Without the Sun’s intense energy, there would be no life on Earth. Nuclear Fusion The Sun’s core is about 27 million degrees Fahrenheit or 15 million degrees Celsius. Moonless But orbited by eight planets, at least five dwarf planets, tens of thousands of asteroids, and up to three trillion comets and icy bodies What we see The Sun’s visible surface sometimes has dark sunspots, which are areas of intense magnetic activity that can lead to solar explosions.  " />
+                android:text="          If the Sun were as tall as a typical front door, Earth would be about the size of a nickel.
+            The sun is the center of our solar system and makes up 99.8 percent of the mass of the entire solar system.
+            Different Spins At the equator, the Sun spins once about every 25 days, but at its poles the Sun rotates once on its axis every 35 Earth days. Can’t Stand on It As a star, the Sun is a ball of gas held together by its own gravity. Ringless The Sun does not have any rings. Under Study Many spacecraft constantly observe the Sun, helping us keep an eye on space weather that can effect satellites and astronauts. Energy for Life Without the Sun’s intense energy, there would be no life on Earth. Nuclear Fusion The Sun’s core is about 27 million degrees Fahrenheit or 15 million degrees Celsius. Moonless But orbited by eight planets, at least five dwarf planets, tens of thousands of asteroids, and up to three trillion comets and icy bodies What we see The Sun’s visible surface sometimes has dark sunspots, which are areas of intense magnetic activity that can lead to solar explosions.  " />
 
         </LinearLayout>
 
