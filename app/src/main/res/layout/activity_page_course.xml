@@ -19,7 +19,8 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="166dp"
-                android:background="@drawable/aheadcourse" />
+                android:background="@drawable/aheadcourse"
+                 />
 
             <Spinner
                 android:id="@+id/spinner1"
