@@ -23,14 +23,15 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_gravity="right"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/close" android:contentDescription="TODO"/>
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/close" android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                app:srcCompat="@drawable/circlemercury" android:contentDescription="TODO"/>
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/circlevenus" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -38,48 +39,46 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
-                android:text="Mercury"
+                android:text="Venus"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="Planet Type: Terrestrial" />
+                android:text="@string/planet_type_terrestrial" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="Length of Year: 88 Earth Days" />
+                android:text="Length of Year: 225 Earth Days" />
 
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="273dp"
-                app:srcCompat="@drawable/mercury" />
+                android:layout_height="315dp"
+                app:srcCompat="@drawable/venus_real" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/white"
-                android:text="   - Mercury is the smallest planet in our solar system - only slightly larger than the Earth's moon. If the sun were as tall as a typical front door, Earth would be the size of a nickel and Mercury would be about as big as a green pea.
-   - It is the closest planet to the sun at a distance of about 58 million km (36 million miles)
-   - One day on Mercury (the time it takes for Mercury to rotate or spin once with respect to the stars) takes 59 Earth days. One day-night cycle on Mercury takes 175.97 Earth days. Mercury makes a complete orbit around the sun (a year in Mercury time) in just 88 Earth days.
-   - Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth's moon.
-   - Standing on Mercury's surface at its closest point to the sun, the sun would appear more than three times larger than it does on Earth.
+                android:text="   - The Earth and Venus have the same size. Venus' solid surface is a volcanic landscape covered with extensive plains featuring high volcanic mountains and vast ridged plateaus.
+   - The planet’s surface temperature is about 900 degrees Fahrenheit (465 degrees Celsius)—hot enough to melt lead.
+   - Venus’ extreme temperatures and acidic clouds make it an unlikely place for life as we know it. While the surface rotates slowly, the winds blow at hurricane force, sending clouds completely around the planet every five days.
 "/>
 
         </LinearLayout>
