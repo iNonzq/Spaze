@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/circlemars" />
+                app:srcCompat="@drawable/circlejupiter" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
-                android:text="Mars"
+                android:text="Jupiter"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
@@ -51,7 +51,7 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="Planet Type: Terrestrial" />
+                android:text="Planet Type: Gas Giant" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -61,13 +61,23 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="Length of Year: 687 Earth Days" />
+                android:text="Length of Year: 4,333 Earth Days" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geosanslight"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Length of Day: ~10 hours" />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="312dp"
-                app:srcCompat="@drawable/mars_real2" />
+                app:srcCompat="@drawable/jupiter_real" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -76,10 +86,11 @@
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
                 android:textColor="@color/white"
-                android:text="   - Mars orbits our Sun, a star. Mars is the fourth planet from the Sun at an average distance of about 228 million km (142 million miles)
-   - Mars is a rocky planet. Its solid surface has been altered by volcanoes, impacts, winds, crustal movement and chemical reactions.
-   - Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil and atmosphere to look red.
-   - At this time, Mars' surface cannot support life as we know it. Current missions are determining Mars' past and future potential for life.
+                android:text="   - Eleven Earths could fit across Jupiter’s equator. If Earth were the size of a grape, Jupiter would be the size of a basketball.
+   - Jupiter orbits about 484 million miles (778 million kilometers) or 5.2 Astronomical Units (AU) from our Sun (Earth is one AU from the Sun).
+   - Jupiter is a gas giant and so lacks an Earth-like surface. If it has a solid inner core at all, it’s likely only about the size of Earth.
+   - Jupiter cannot support life as we know it. But some of Jupiter's moons have oceans beneath their crusts that might support life.
+   - Jupiter's Great Red Spot is a gigantic storm that’s about twice the size of Earth and has raged for over a century.
    "/>
 
         </LinearLayout>
