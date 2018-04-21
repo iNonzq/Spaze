@@ -35,17 +35,17 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="157dp"
+            android:backgroundTint="#ffffff"
             android:ems="10"
+            android:hint="@string/username_text"
             android:inputType="textPersonName"
             android:text="@string/username_text"
             android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="154dp"
-            android:backgroundTint="#ffffff"
 
-            />
+            tools:layout_editor_absoluteY="154dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -54,11 +54,12 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="214dp"
+            android:backgroundTint="#ffffff"
             android:ems="10"
+            android:hint="@string/pass_text"
             android:inputType="textPassword"
             android:text="@string/pass_text"
             android:textColor="#ffffff"
-            android:backgroundTint="#ffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.506"
@@ -89,31 +90,5 @@
             android:text="Sign Up"
             tools:layout_editor_absoluteX="224dp"
             tools:layout_editor_absoluteY="377dp" />
-    </RelativeLayout><![CDATA[
-<<<<<<< HEAD
-=======
-    android:layout_height="603dp"
-    android:background="@drawable/bg_login">
-
-
-
-
-
-
-
-    >>>>>>> 7b4a84cb956873514137ee0107079a7ba9f37e47
-
-
-=======
-
-    android:layout_height="603dp"
-    android:background="@drawable/bg_login">
-
-
-
-
->>>>>>> 7b4a84cb956873514137ee0107079a7ba9f37e47
->>>>>>> 288551a5e49b06524bf681371f216b97a2b836b3
-
-    ]]>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

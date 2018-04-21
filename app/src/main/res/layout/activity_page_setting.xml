@@ -6,11 +6,5 @@
     android:layout_height="match_parent"
     tools:context="com.example.nonz.spaze.PageSetting">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="welcome to setting"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="54dp" />
+
 </android.support.constraint.ConstraintLayout>
