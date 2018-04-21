@@ -12,12 +12,12 @@ public class PageCourse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_course);
 
-        /*Spinner mySpinner = (Spinner) findViewById(R.id.spinner1);
+        Spinner mySpinner = (Spinner) findViewById(R.id.spinner1);
 // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names));
         myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        mySpinner.setAdapter(myAdapter);*/
+        mySpinner.setAdapter(myAdapter);
 
         /*
         <Spinner
