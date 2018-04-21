@@ -51,11 +51,8 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-<<<<<<< HEAD
+
                 android:text="Planet Type: Terrestrial" />
-=======
-                android:text="Planet type: Terrestrial" />
->>>>>>> 07cc3599273cc04fd9ecc1e3377c403b0b2da1cc
 
             <TextView
                 android:id="@+id/textView11"
