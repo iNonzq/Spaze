@@ -23,15 +23,15 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_gravity="right"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/close" android:contentDescription="@string/todo" />
+                android:layout_marginRight="10dp"
+                android:background="@drawable/close" android:contentDescription="TODO"/>
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-
-                app:srcCompat="@drawable/circlevenus" />
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/circleearth" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -39,16 +39,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
-                android:text="Venus"
+                android:text="Earth"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Planet Type: Terrestrial" />
@@ -58,30 +58,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="Length of Year: 225 Earth Days" />
+                android:text="Length of Year: 365 Earth Days" />
 
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="315dp"
-                app:srcCompat="@drawable/venus_real" />
+                android:layout_height="312dp"
+                app:srcCompat="@drawable/earth_real" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textColor="@color/white"
-                android:text="   - The Earth and Venus have the same size. Venus' solid surface is a volcanic landscape covered with extensive plains featuring high volcanic mountains and vast ridged plateaus.
-   - The planet’s surface temperature is about 900 degrees Fahrenheit (465 degrees Celsius)—hot enough to melt lead.
-   - Venus’ extreme temperatures and acidic clouds make it an unlikely place for life as we know it. While the surface rotates slowly, the winds blow at hurricane force, sending clouds completely around the planet every five days.
-"/>
+                android:text="   - Earth is a rocky planet with a solid and dynamic surface of mountains, canyons, plains and more. Most of our planet is covered in water.
+   - Earth's atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other ingredients—the perfect balance to breathe and live.
+   - Our atmosphere protects us from incoming meteoroids, most of which break up in our atmosphere before they can strike the surface.
+   - Many orbiting spacecraft study the Earth from above as a whole system—observing the atmosphere, ocean, glaciers, and the solid earth.
+   "/>
 
         </LinearLayout>
 
     </ScrollView>
+
 </LinearLayout>
