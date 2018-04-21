@@ -29,7 +29,7 @@
             tools:layout_editor_absoluteY="321dp" />
 
         <EditText
-            android:id="@+id/username_input"
+            android:id="@+id/editTextUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -48,7 +48,7 @@
             />
 
         <EditText
-            android:id="@+id/password_input"
+            android:id="@+id/editTextPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
