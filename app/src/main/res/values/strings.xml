@@ -4,4 +4,10 @@
     <string name="pass_text">Password</string>
     <string name="login_button">LogIn</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
+
+    <string-array name="names">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        </string-array>
 </resources>
