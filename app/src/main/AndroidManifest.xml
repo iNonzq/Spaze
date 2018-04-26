@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nonz.spaze">
 
+    //add internet permission
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -21,8 +24,7 @@
         <activity android:name=".PageCourse" />
         <activity android:name=".PageSchedule" />
         <activity android:name=".PageSetting" />
+        <activity android:name=".PageRegister"></activity>
     </application>
-    
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

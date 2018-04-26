@@ -9,5 +9,7 @@
         <item>Level 1</item>
         <item>Level 2</item>
         <item>Level 3</item>
-        </string-array>
+    </string-array>
+    <string name="signp_button">Submit_Signup</string>
+
 </resources>
