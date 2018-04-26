@@ -2,6 +2,8 @@ package com.example.nonz.spaze;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class PageRegister extends AppCompatActivity {
 
@@ -11,5 +13,13 @@ public class PageRegister extends AppCompatActivity {
         setContentView(R.layout.activity_page_register);
     }
 
-
+    public void onSignUpClick(View v)
+    {
+        if (v.getId()==R.id.Bsignupbutton)
+        {
+            EditText name = (EditText)findViewById(R.id.signup_input_name);
+            EditText email = (EditText)findViewById(R.id.signup_input_email);
+            EditText uname
+        }
+    }
 }
