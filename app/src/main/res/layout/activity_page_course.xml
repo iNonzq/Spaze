@@ -39,6 +39,12 @@
                 android:layout_height="140dp"
                 android:background="@drawable/coursehigh" />
 
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/coursecollege" />
+
         </LinearLayout>
 
     </ScrollView>
