@@ -1,9 +1,10 @@
 package com.example.nonz.spaze;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+
 
 public class PageRegister extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class PageRegister extends AppCompatActivity {
         {
             EditText name = (EditText)findViewById(R.id.signup_input_name);
             EditText email = (EditText)findViewById(R.id.signup_input_email);
-            EditText uname
+            EditText uname = (EditText)findViewById(R.id.signup_input_username);
         }
     }
 }
