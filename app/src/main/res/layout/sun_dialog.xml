@@ -72,7 +72,7 @@
                 android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/sun" />
 
-            <-- Box1 -->
+            <!-- Box1 -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
