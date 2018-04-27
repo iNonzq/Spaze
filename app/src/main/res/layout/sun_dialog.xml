@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_width="320dp"
+    android:layout_width="350dp"
     android:layout_height="wrap_content"
     android:background="@color/purplebg"
     android:layout_gravity="center"
@@ -72,6 +72,18 @@
                 android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/sun" />
 
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Sun"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:fontFamily="@font/timkid"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
             <!-- Box1 -->
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -79,7 +91,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="67dp"
+                    android:layout_height="69dp"
                     android:background="@color/lemon"
                     />
 
@@ -121,7 +133,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="88dp"
                     android:background="@color/rose"
                     />
 
@@ -153,6 +165,337 @@
                         android:textSize="17dp"
                         />
 
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box3 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DIFFERENT SPINS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="At the equator, the Sun spins once about every 25 days, but at its poles the Sun rotates once on its axis every 35 Earth days."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box4 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@color/babyblue"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CAN'T STAND ON IT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="As a star, the Sun is a ball of gas held together by its own gravity."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box5 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/strawberry"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RING"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Sun does not have any rings."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box6 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/laveder"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="UNDER STUDY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Many spacecraft constantly observe the Sun, helping us keep an eye on space weather that can effect satellites and astronauts."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box7 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/pea"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ENERGY FOR LIFE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Without the Sun’s intense energy, there would be no life on Earth."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box8 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NUCLEAR FUSION"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Sun’s core is about 27 million degrees Fahrenheit or 15 million degrees Celsius."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box9 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/mint"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MOONLESS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="But orbited by eight planets, at least five dwarf planets, tens of thousands of asteroids, and up to three trillion comets and icy bodies"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box10 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/laveder"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="WHAT WE SEE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Sun’s visible surface sometimes has dark sunspots, which are areas of intense magnetic activity that can lead to solar explosions.
+"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
                 </RelativeLayout>
             </RelativeLayout>
 

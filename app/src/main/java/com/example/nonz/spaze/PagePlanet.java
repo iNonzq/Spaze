@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
-    Dialog Sun_dia;
-    ImageButton s1,c1;
+    Dialog Sun_dia,Mer_dia;
+    ImageButton s1,c1,s2,c2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,21 +39,28 @@ public class PagePlanet extends AppCompatActivity {
 
             }
         });
-    }
-    /*public void ShowPopup() {
-        ImageButton c1;
-        Sun_dia = new Dialog(PagePlanet.this);
-        Sun_dia.setContentView(R.layout.sun_dialog);
 
-        c1 = (ImageButton) Sun_dia.findViewById(R.id.closebtn);
-        c1.setEnabled(true);
-        c1.setOnClickListener(new View.OnClickListener() {
+        s2 = (ImageButton) findViewById(R.id.MerBtn);
+
+        s2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Sun_dia.dismiss();
+                //ShowPopup();
+                Mer_dia = new Dialog(PagePlanet.this);
+                Mer_dia.setContentView(R.layout.mercury_dialog);
+                c2 = (ImageButton) Mer_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Mer_dia.dismiss();
+                    }
+                });
+                Mer_dia.show();
+
             }
         });
+    }
 
-        Sun_dia.show();
-    }*/
+
 }
