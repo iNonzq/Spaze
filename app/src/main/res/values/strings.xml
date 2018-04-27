@@ -5,10 +5,16 @@
     <string name="login_button">LogIn</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
 
-    <string-array name="names">
+    <string-array name="names1">
         <item>Level 1</item>
         <item>Level 2</item>
         <item>Level 3</item>
+    </string-array>
+
+    <string-array name="names2">
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
     </string-array>
     <string name="signp_button">Submit_Signup</string>
 
