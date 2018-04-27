@@ -30,7 +30,8 @@ public class PageCourse extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
-        /*mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+        mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
@@ -52,7 +53,7 @@ public class PageCourse extends AppCompatActivity {
 
         });
 
-        mySpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        /*mySpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
