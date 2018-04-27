@@ -30,17 +30,33 @@ public class PageCourse extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ed736cda142e8fee96ac4d69e37dde79f922d4c
         mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view,
-                                       int position, long id) {
+            public void onItemSelected(AdapterView<?> parent1, View view,
+                                       int position1, long id) {
 
                 String s=((TextView)view).getText().toString();
-                if(s.equals("Level 1"))
-                    startActivity(new Intent(view.getContext(),PageLogin.class));
-                if(s.equals("Level 2"))
-                    startActivity(new Intent(view.getContext(),PageCourse.class));
+                switch(s) {
+
+                    case ("Level 2") : // for item 1
+                        Intent i = new Intent(PageCourse.this,PageSchedule.class);
+                        startActivity(i);
+
+                        break;
+
+                    case ("Level 3") :
+                        /*startActivity(new Intent(view.getContext(),PageLogin.class));*/
+                        break;
+
+                    /* you can have any number of case statements */
+                    default :
+
+                }
+
 
             }
 
