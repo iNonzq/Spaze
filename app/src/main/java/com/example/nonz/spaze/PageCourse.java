@@ -30,25 +30,21 @@ public class PageCourse extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0ed736cda142e8fee96ac4d69e37dde79f922d4c
         mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent1, View view,
-                                       int position1, long id) {
+            public void onItemSelected(AdapterView<?> parent1, View view, int position1, long id) {
 
                 String s=((TextView)view).getText().toString();
                 switch(s) {
 
-                    case ("Level 3") : // for item 1
+                    case ("Level 2") : // for item 1
                         Intent i = new Intent(PageCourse.this,PageSchedule.class);
                         startActivity(i);
 
                         break;
 
-                    case ("Level 2") :
+                    case ("Level 3") :
                         /*startActivity(new Intent(view.getContext(),PageLogin.class));*/
                         break;
 
@@ -58,10 +54,7 @@ public class PageCourse extends AppCompatActivity {
                 }
 
 
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
+            public void onNothingSelected(AdapterView<?> parent1)  {
                 // TODO Auto-generated method stub
 
             }
