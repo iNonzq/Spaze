@@ -30,16 +30,16 @@ public class PageCourse extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
-        /*mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
 
-                String s=((TextView)view).getText().toString();
+                /*String s=((TextView)view).getText().toString();
                 if(s.equals("Level 1"))
                     startActivity(new Intent(view.getContext(),PageLogin.class));
                 if(s.equals("Level 2"))
-                    startActivity(new Intent(view.getContext(),PageCourse.class));
+                    startActivity(new Intent(view.getContext(),PageCourse.class));*/
 
             }
 
@@ -52,7 +52,7 @@ public class PageCourse extends AppCompatActivity {
 
         });
 
-        mySpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        /*mySpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
