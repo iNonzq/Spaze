@@ -32,14 +32,27 @@ public class PageCourse extends AppCompatActivity {
 
         mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view,
-                                       int position, long id) {
+            public void onItemSelected(AdapterView<?> parent1, View view,
+                                       int position1, long id) {
 
-                /*String s=((TextView)view).getText().toString();
-                if(s.equals("Level 1"))
-                    startActivity(new Intent(view.getContext(),PageLogin.class));
-                if(s.equals("Level 2"))
-                    startActivity(new Intent(view.getContext(),PageCourse.class));*/
+                String s=((TextView)view).getText().toString();
+                switch(s) {
+
+                    case ("Level 2") : // for item 1
+                        Intent i = new Intent(PageCourse.this,PageSchedule.class);
+                        startActivity(i);
+
+                        break;
+
+                    case ("Level 3") :
+                        /*startActivity(new Intent(view.getContext(),PageLogin.class));*/
+                        break;
+
+                    /* you can have any number of case statements */
+                    default :
+
+                }
+
 
             }
 
