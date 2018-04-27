@@ -79,7 +79,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="67dp"
                     android:background="@color/lemon"
                     />
 
@@ -114,6 +114,47 @@
                 </RelativeLayout>
             </RelativeLayout>
 
+            <!-- Box2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@color/rose"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MOST MASSIVE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The sun is the center of our solar system and makes up 99.8 percent of the mass of the entire solar system."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
 
         </LinearLayout>
 
