@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_width="350dp"
+    android:layout_width="320dp"
     android:layout_height="wrap_content"
     android:background="@color/purplebg"
     android:layout_gravity="center"
@@ -37,16 +37,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sun"
+                android:layout_marginTop="7dp"
                 android:gravity="center"
                 android:fontFamily="@font/timkid"
                 android:textColor="@color/white"
-                android:textSize="20dp"/>
+                android:textSize="22dp"/>
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
+                android:layout_gravity="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
@@ -54,10 +56,11 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Age: ~4.5 billion years " />
@@ -66,22 +69,10 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="321dp"
+                android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/sun" />
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
-                android:textColor="@color/white"
-                android:text="   - If the Sun were as tall as a typical front door, Earth would be about the size of a nickel.
-   - The sun is the center of our solar system and makes up 99.8 percent of the mass of the entire solar system.
-   - The Sun spins once about every 25 days, but at its poles the Sun rotates once on its axis every 35 Earth days.
-   - As a star, the Sun is a ball of gas held together by its own gravity. Under Study Many spacecraft constantly observe the Sun, helping us keep an eye on space weather that can effect satellites and astronauts.
-   - Without the Sun’s intense energy, there would be no life on Earth. Moonless But orbited by eight planets, at least five dwarf planets, tens of thousands of asteroids, and up to three trillion comets and icy bodies
-   - The Sun’s visible surface sometimes has dark sunspots, which are areas of intense magnetic activity that can lead to solar explosions.
-" />
+
 
         </LinearLayout>
 
