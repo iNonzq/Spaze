@@ -18,6 +18,20 @@
         <item>Level 5</item>
         <item>Level 6</item>
     </string-array>
+
+    <string-array name="names3">
+        <item>Select</item>
+        <item>Level 7</item>
+        <item>Level 8</item>
+        <item>Level 9</item>
+    </string-array>
+
+    <string-array name="names4">
+        <item>Select</item>
+        <item>Level 10</item>
+        <item>Level 11</item>
+        <item>Level 12</item>
+    </string-array>
     <string name="signp_button">Submit_Signup</string>
 
 </resources>
