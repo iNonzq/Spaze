@@ -23,7 +23,7 @@ public class PageCourse extends AppCompatActivity {
         myAdapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner1.setAdapter(myAdapter1);
 
-        /*Spinner mySpinner2 = (Spinner) findViewById(R.id.spinner1);
+        Spinner mySpinner2 = (Spinner) findViewById(R.id.spinner2);
 // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names2));
@@ -72,6 +72,6 @@ public class PageCourse extends AppCompatActivity {
             }
 
 
-        });*/
+        });
     }
 }
