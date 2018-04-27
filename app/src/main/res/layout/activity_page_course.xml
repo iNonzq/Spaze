@@ -34,29 +34,17 @@
                 android:layout_height="140dp"
                 android:background="@drawable/coursemiddle" />
 
-            <LinearLayout
+            <Spinner
+                android:id="@+id/spinner3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="140dp"
+                android:background="@drawable/coursehigh" />
 
-                <Spinner
-                    android:id="@+id/spinner3"
-                    android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:background="@drawable/coursehigh" />
-            </LinearLayout>
-
-            <LinearLayout
+            <Spinner
+                android:id="@+id/spinner4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <Spinner
-                    android:id="@+id/spinner4"
-                    android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:background="@drawable/coursecollege" />
-            </LinearLayout>
+                android:layout_height="140dp"
+                android:background="@drawable/coursecollege" />
 
 
         </LinearLayout>

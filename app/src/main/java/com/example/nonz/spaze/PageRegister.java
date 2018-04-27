@@ -8,8 +8,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
+
 public class PageRegister extends AppCompatActivity {
 
+    DatabaseHelper helper = new DatabaseHelper(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,17 @@ public class PageRegister extends AppCompatActivity {
             {
                 Toast msgpass = Toast.makeText(PageRegister.this, "Passwords don't match!", Toast.LENGTH_SHORT);
                 msgpass.show();
+            }
+            else
+            {
+                Contact c =new Contact();
+                c.setName(namestr);
+                c.setEmail(emailstr);
+                c.setUname(unamestr);
+                c.setPass(passstr);
+
+                helper.insertContact(c);
+
             }
 
         }
