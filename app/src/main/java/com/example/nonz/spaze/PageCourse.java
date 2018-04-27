@@ -23,14 +23,14 @@ public class PageCourse extends AppCompatActivity {
         myAdapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner1.setAdapter(myAdapter1);
 
-        Spinner mySpinner2 = (Spinner) findViewById(R.id.spinner1);
+        Spinner mySpinner2 = (Spinner) findViewById(R.id.spinner2);
 // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names2));
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
-        mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        /*mySpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
@@ -59,7 +59,7 @@ public class PageCourse extends AppCompatActivity {
 
                 String s=((TextView)view).getText().toString();
                 if(s.equals("Level 4"))
-                    startActivity(new Intent(view.getContext(),PageLogin.class));
+                   startActivity(new Intent(view.getContext(),PageLogin.class));
                 if(s.equals("Level 5"))
                     startActivity(new Intent(view.getContext(),PageCourse.class));
 
@@ -72,6 +72,6 @@ public class PageCourse extends AppCompatActivity {
             }
 
 
-        });
+        });*/
     }
 }
