@@ -38,13 +38,13 @@ public class PageCourse extends AppCompatActivity {
                 String s=((TextView)view).getText().toString();
                 switch(s) {
 
-                    case ("Level 2") : // for item 1
+                    case ("Level 3") : // for item 1
                         Intent i = new Intent(PageCourse.this,PageSchedule.class);
                         startActivity(i);
 
                         break;
 
-                    case ("Level 3") :
+                    case ("Level 2") :
                         /*startActivity(new Intent(view.getContext(),PageLogin.class));*/
                         break;
 
