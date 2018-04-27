@@ -12,13 +12,14 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
-    Dialog Sun_dia,Mer_dia;
-    ImageButton s1,c1,s2,c2;
+    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia;
+    ImageButton s1,c1,s2,c2,s3,s4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_planet);
 
+        //Sun image button
         s1 = (ImageButton) findViewById(R.id.SunBtn);
 
         s1.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +41,7 @@ public class PagePlanet extends AppCompatActivity {
             }
         });
 
+        //Mercury Image Button
         s2 = (ImageButton) findViewById(R.id.MerBtn);
 
         s2.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +59,50 @@ public class PagePlanet extends AppCompatActivity {
                     }
                 });
                 Mer_dia.show();
+
+            }
+        });
+
+        //Venus Image Button
+        s3 = (ImageButton) findViewById(R.id.VenBtn);
+
+        s3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ShowPopup();
+                Ven_dia = new Dialog(PagePlanet.this);
+                Ven_dia.setContentView(R.layout.venus_dialog);
+                c2 = (ImageButton) Ven_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Ven_dia.dismiss();
+                    }
+                });
+                Ven_dia.show();
+
+            }
+        });
+
+        //Earth Image Button
+        s4 = (ImageButton) findViewById(R.id.EthBtn);
+
+        s4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ShowPopup();
+                Eth_dia = new Dialog(PagePlanet.this);
+                Eth_dia.setContentView(R.layout.earth_dialog);
+                c2 = (ImageButton) Eth_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Eth_dia.dismiss();
+                    }
+                });
+                Eth_dia.show();
 
             }
         });
