@@ -6,12 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.nonz.spaze.PageSchedule">
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-sdk android:minSdkVersion="14" />
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-</manifest>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
