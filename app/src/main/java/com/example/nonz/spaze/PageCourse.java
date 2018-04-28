@@ -17,28 +17,31 @@ public class PageCourse extends AppCompatActivity {
         setContentView(R.layout.activity_page_course);
 
         Spinner mySpinner1 = (Spinner) findViewById(R.id.spinner1);
-// Create an ArrayAdapter using the string array and a default spinner layout
+        // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter1 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names1));
         myAdapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner1.setAdapter(myAdapter1);
 
         Spinner mySpinner2 = (Spinner) findViewById(R.id.spinner2);
-// Create an ArrayAdapter using the string array and a default spinner layout
+
+        // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names2));
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner2.setAdapter(myAdapter2);
 
         Spinner mySpinner3 = (Spinner) findViewById(R.id.spinner3);
-// Create an ArrayAdapter using the string array and a default spinner layout
+
+        // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter3 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names3));
         myAdapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner3.setAdapter(myAdapter3);
 
         Spinner mySpinner4 = (Spinner) findViewById(R.id.spinner4);
-// Create an ArrayAdapter using the string array and a default spinner layout
+
+        // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> myAdapter4 = new ArrayAdapter<String>(PageCourse.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names4));
         myAdapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
