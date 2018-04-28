@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
-    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia;
-    ImageButton s1,c1,s2,c2,s3,s4;
+    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia,Mar_dia;
+    ImageButton s1,c1,s2,c2,s3,s4,s5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,7 +106,28 @@ public class PagePlanet extends AppCompatActivity {
 
             }
         });
+
+        //Earth Image Button
+        s5 = (ImageButton) findViewById(R.id.MarBtn);
+
+        s5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ShowPopup();
+                Mar_dia = new Dialog(PagePlanet.this);
+                Mar_dia.setContentView(R.layout.mars_dialog);
+                c2 = (ImageButton) Mar_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Mar_dia.dismiss();
+                    }
+                });
+                Mar_dia.show();
+
+            }
+        });
+
     }
-
-
 }
