@@ -40,35 +40,39 @@
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
                 android:text="Uranus"
+                android:layout_marginTop="7dp"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Planet Type: Ice Giant" />
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Length of Year: 30,687 Earth Days" />
 
             <TextView
                 android:id="@+id/textView21"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Length of Day: 17 hours" />
@@ -77,22 +81,435 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="312dp"
-                app:srcCompat="@drawable/uranus_real2" />
+                app:srcCompat="@drawable/uranus_real2"
+                android:layout_marginTop="-15dp"
+                />
 
             <TextView
-                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:text="About Uranus"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:fontFamily="@font/timkid"
                 android:textColor="@color/white"
-                android:text="   - Uranus is about four times wider than Earth. If Earth were a large apple, Uranus would be the size of a basketball.
-   - Uranus orbits our Sun, a star, and is the seventh planet from the Sun at a distance of about 1.8 billion miles (2.9 billion kilometers).
-   - Uranus takes about 17 hours to rotate once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year).
-   - Uranus is an ice giant. Most of its mass is a hot, dense fluid of 'icy' materials – water, methane and ammonia – above a small rocky core.
-   - Like Venus, Uranus rotates east to west. But Uranus is unique in that it rotates on its side.
+                android:textSize="18dp"/>
 
-   "/>
+            <!-- Box1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/strawberry"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HUGE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus is about four times wider than Earth. If Earth were a large apple, Uranus would be the size of a basketball."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/lemon"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SEVENTH WANDERER"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus orbits our Sun, a star, and is the seventh planet from the Sun at a distance of about 1.8 billion miles (2.9 billion kilometers)."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box3 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/babyblue"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SHORT-ISH DAY/LONGISH DAY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus takes about 17 hours to rotate once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year)."
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/geosanslight"
+                    android:textSize="17dp"
+                    />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box4 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/pea"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ICE GIANT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus is an ice giant. Most of its mass is a hot, dense fluid 'icy' of materials – water, methane and ammonia – above a small rocky core."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box5 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/laveder"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GASSY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus has an atmosphere made mostly of molecular hydrogen and atomic helium, with a small amount of methane."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box6 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/mint"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MANY MOONS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus has 27 known moons, and they are named after characters from the works of William Shakespeare and Alexander Pope."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box7 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="THE OTHER RINGED WORLD"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus has 13 known rings. The inner rings are narrow and dark and the outer rings are brightly colored."
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/geosanslight"
+                    android:textSize="17dp"
+                    />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box8 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/rose"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A BIT LOENLY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Voyager 2 is the only spacecraft to fly by Uranus. No spacecraft has orbited this distant planet to study it at length and up close."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box9 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/mint"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LIFELESS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uranus cannot support life as we know it."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box10 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/laveder"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ONE COOL FACT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Like Venus, Uranus rotates east to west. But Uranus is unique in that it rotates on its side."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
 
         </LinearLayout>
 
