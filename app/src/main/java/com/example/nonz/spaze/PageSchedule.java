@@ -50,6 +50,7 @@ public class PageSchedule extends AppCompatActivity {
                         Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
                     }
             }
+            //test
 
             @Override
             public void onMonthScroll(Date firstDayOfNewMonth) {
