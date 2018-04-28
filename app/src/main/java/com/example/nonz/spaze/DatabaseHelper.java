@@ -12,13 +12,13 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "users.db";
     private static final String TABLE_NAME = "users_info";
-
+    private static final String COLUMN_ID = "id";
     private static final String COLUMN_NAME = "name";
     private static final String COLUMN_EMAIL = "email";
     private static final String COLUMN_UNAME = "uname";
     private static final String COLUMN_PASS = "pass";
     SQLiteDatabase db;
-    private static final String TABLE_CREATE = "create table users_info (id integer primary key not null autoincrement , " + "name text not null , email text not null , uname text not null , pass text not null);";
+    private static final String TABLE_CREATE = "CREATE TABLE" + TABLE_NAME +"(" + COLUMN_ID +"INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL , " + COLUMN_NAME+ "text not null ,"+ COLUMN_EMAIL+ "text not null ," + COLUMN_UNAME + "text not null ," + COLUMN_PASS+ "text not null);";
 
     public DatabaseHelper(Context context)
     {

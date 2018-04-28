@@ -96,29 +96,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp">
-            <EditText
-                android:id="@+id/signup_input_age"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Age"/>
-        </android.support.design.widget.TextInputLayout>
+            android:layout_marginTop="10dp"></android.support.design.widget.TextInputLayout>
 
-        <Button android:id="@+id/btn_signup"
-            android:layout_width="fill_parent"
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:background="@null"
-            android:layout_marginTop="40dp"
-            />
-        <Button android:id="@+id/btn_link_login"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:background="@null"
-            android:layout_marginTop="3dp"
-            android:textColor="@android:color/black"/>
+            android:onClick="onSignUpClick"
+            android:text="SignUp" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
