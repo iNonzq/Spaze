@@ -11,27 +11,47 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView9"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="166dp"
-            android:background="@drawable/aheadcalendar" />
+            android:layout_height="match_parent">
 
-        <com.github.sundeepk.compactcalendarview.CompactCalendarView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/compactcalendar_view"
-            android:layout_width="fill_parent"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:layout_height="250dp"
-            app:compactCalendarTargetHeight="250dp"
-            app:compactCalendarTextSize="12sp"
-            app:compactCalendarBackgroundColor="#a186be"
-            app:compactCalendarTextColor="#fff"
-            app:compactCalendarCurrentSelectedDayBackgroundColor="#61105e"
-            app:compactCalendarCurrentDayBackgroundColor="#280b45"
-            app:compactCalendarMultiEventIndicatorColor="#fff"
-            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp"
+                    android:background="@drawable/aheadcalendar" />
+
+                <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                    android:id="@+id/compactcalendar_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:compactCalendarBackgroundColor="#a186be"
+                    app:compactCalendarCurrentDayBackgroundColor="#280b45"
+                    app:compactCalendarCurrentSelectedDayBackgroundColor="#61105e"
+                    app:compactCalendarMultiEventIndicatorColor="#fff"
+                    app:compactCalendarTargetHeight="250dp"
+                    app:compactCalendarTextColor="#fff"
+                    app:compactCalendarTextSize="12sp" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Detail"
+                    android:fontFamily="@font/geosanslight"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
 
 
     </LinearLayout>

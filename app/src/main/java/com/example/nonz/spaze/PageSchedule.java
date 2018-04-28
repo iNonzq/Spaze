@@ -41,8 +41,19 @@ public class PageSchedule extends AppCompatActivity {
 
         Event ev1 = new Event(Color.WHITE, 1477040400000L, "Teachers' Professional Day");
         compactCalendar.addEvent(ev1);
-        Event ev2 = new Event(Color.WHITE, 1524992400000L, "Teachers' Professional Day");
+        Event ev2 = new Event(Color.WHITE, 1525100573000L, "Full Moon");
         compactCalendar.addEvent(ev2);
+        Event ev3 = new Event(Color.WHITE, 1525618973000L, "Eta Aquarids");
+        compactCalendar.addEvent(ev3);
+        Event ev4 = new Event(Color.WHITE, 1525683600000L, "Eta Aquarids");
+        compactCalendar.addEvent(ev4);
+        Event ev5 = new Event(Color.WHITE, 1525899600000L, "Jupiter at Opposition");
+        compactCalendar.addEvent(ev5);
+        Event ev6 = new Event(Color.WHITE, 1526418000000L, "New Moon");
+        compactCalendar.addEvent(ev6);
+        Event ev7 = new Event(Color.WHITE, 1527627600000L, "Full Moon");
+        compactCalendar.addEvent(ev7);
+
         //Event ev1 = new Event(Color.WHITE,1524906000000L, "Test");
         //compactCalendar.addEvent(ev1);
 
