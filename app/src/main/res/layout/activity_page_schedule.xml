@@ -40,15 +40,14 @@
                     app:compactCalendarTextColor="#fff"
                     app:compactCalendarTextSize="12sp" />
 
-                <EditText
-                    android:id="@+id/editText"
+                <TextView
+                    android:id="@+id/text1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Detail"
                     android:fontFamily="@font/geosanslight"
-                    />
+                    android:text="Details"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -64,13 +63,12 @@
                         app:srcCompat="@drawable/taurid" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/text"
                         android:layout_width="288dp"
-                        android:layout_height="88dp"
+                        android:layout_height="wrap_content"
                         android:fontFamily="@font/geosanslight"
-                        android:text="TextView"
-                        android:textSize="14dp"
-                        tools:text="6-7 May: Eta Aquarids.\nThe Eta Aquarids is an above average shower, capable of producing up to 60 meteors per hour at its peak. Most of the activity is seen in the Southern Hemisphere." />
+                        android:text="6-7 May: Eta Aquarids.\n\nThe Eta Aquarids is an above average shower, capable of producing up to 60 meteors per hour at its peak. Most of the activity is seen in the Southern Hemisphere."
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
@@ -89,15 +87,13 @@
                         app:srcCompat="@drawable/jupiter" />
 
                     <TextView
-                        android:layout_marginTop="15dp"
                         android:id="@+id/textView2"
                         android:layout_width="288dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        tools:text="9 May: Jupiter at Opposition. \nThe giant planet will be at its closest approach to Earth and its face will be fully illuminated by the Sun. It will be brighter than any other time of the year and will be visible all night long."
+                        android:layout_marginTop="15dp"
                         android:fontFamily="@font/geosanslight"
-                        android:textSize="14dp"
-                        />
+                        android:text="9 May: Jupiter at Opposition. \n\nThe giant planet will be at its closest approach to Earth and its face will be fully illuminated by the Sun. It will be brighter than any other time of the year and will be visible all night long."
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
@@ -116,15 +112,13 @@
                         app:srcCompat="@drawable/newmoon" />
 
                     <TextView
-                        android:layout_marginTop="15dp"
                         android:id="@+id/textView3"
                         android:layout_width="288dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        tools:text="15 May: New Moon. \nThe Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phase occurs at 11:48 UTC. "
+                        android:layout_marginTop="15dp"
                         android:fontFamily="@font/geosanslight"
-                        android:textSize="14dp"
-                        />
+                        android:text="15 May: New Moon. \n\nThe Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phase occurs at 11:48 UTC. "
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
@@ -144,16 +138,14 @@
                         android:layout_marginBottom="20dp"/>
 
                     <TextView
-                        android:layout_marginTop="15dp"
                         android:id="@+id/textView4"
                         android:layout_width="288dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        tools:text="29 May: Full Moon. \nThe Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminated. This phase occurs at 14:19 UTC."
-                        android:fontFamily="@font/geosanslight"
-                        android:textSize="14dp"
                         android:layout_marginBottom="20dp"
-                        />
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/geosanslight"
+                        android:text="29 May: Full Moon. \n\nThe Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminated. This phase occurs at 14:19 UTC."
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
