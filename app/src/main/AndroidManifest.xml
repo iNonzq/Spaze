@@ -27,4 +27,5 @@
         <activity android:name=".PageQuiz"></activity>
     </application>
 
+
 </manifest>
