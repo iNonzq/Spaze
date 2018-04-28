@@ -11,9 +11,18 @@
         android:id="@+id/setting_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="gotoPageRegister"
         android:text="Sign up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="47dp"
-        android:onClick="gotoPageRegister"/>
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/setting_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="43dp" />
 </android.support.constraint.ConstraintLayout>
