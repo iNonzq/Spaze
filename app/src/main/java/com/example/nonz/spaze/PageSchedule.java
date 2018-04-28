@@ -24,7 +24,7 @@ import java.util.Locale;
 public class PageSchedule extends AppCompatActivity {
 
     CompactCalendarView compactCalendar;
-    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM-yyyy", Locale.getDefault());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +39,10 @@ public class PageSchedule extends AppCompatActivity {
         compactCalendar = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         compactCalendar.setUseThreeLetterAbbreviation(true);
 
-        Event ev1 = new Event(Color.RED, 1477040400000L, "Teachers' Professional Day");
+        Event ev1 = new Event(Color.WHITE, 1477040400000L, "Teachers' Professional Day");
         compactCalendar.addEvent(ev1);
+        Event ev2 = new Event(Color.WHITE, 1524992400000L, "Teachers' Professional Day");
+        compactCalendar.addEvent(ev2);
         //Event ev1 = new Event(Color.WHITE,1524906000000L, "Test");
         //compactCalendar.addEvent(ev1);
 
