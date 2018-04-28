@@ -24,7 +24,7 @@ import java.util.Locale;
 public class PageSchedule extends AppCompatActivity {
 
     CompactCalendarView compactCalendar;
-    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM- yyyy", Locale.getDefault());
+    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,14 +39,17 @@ public class PageSchedule extends AppCompatActivity {
         compactCalendar = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         compactCalendar.setUseThreeLetterAbbreviation(true);
 
-        Event ev1 = new Event(Color.WHITE, 1524906000000L, "Test");
+        Event ev1 = new Event(Color.RED, 1477040400000L, "Teachers' Professional Day");
         compactCalendar.addEvent(ev1);
+        //Event ev1 = new Event(Color.WHITE,1524906000000L, "Test");
+        //compactCalendar.addEvent(ev1);
 
         compactCalendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
             public void onDayClick(Date dateClicked) {
                 Context context = getApplicationContext();
-                    if(dateClicked.toString().compareTo("Saturday, April 28, 2018 9:00:00 AM")==0){
+                    if (dateClicked.toString().compareTo("Fri Oct 21 00:00:00 AST 2016") == 0) {
+                    //if(dateClicked.toString().compareTo("Saturday, April 28, 2018 9:00:00 AM")==0){
                         Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
                     }
             }
