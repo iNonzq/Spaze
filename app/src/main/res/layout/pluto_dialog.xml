@@ -40,35 +40,39 @@
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
                 android:text="Pluto"
+                android:layout_marginTop="7dp"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Planet Type: Dwarf Planet" />
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Length of Year: 90,530 Earth Days" />
 
             <TextView
                 android:id="@+id/textView21"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Length of Day: 153 hours" />
@@ -77,21 +81,433 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="312dp"
-                app:srcCompat="@drawable/pluto_real" />
+                app:srcCompat="@drawable/pluto_real"
+                android:layout_marginTop="15dp"/>
 
             <TextView
-                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:text="About Pluto"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:fontFamily="@font/timkid"
                 android:textColor="@color/white"
-                android:text="   - Pluto is about 1,400 miles (2,380 km) wide. That's about half the width of the United States, or 2/3 the width of Earth's moon.
-   - Pluto orbits the Sun about 3.6 billion miles (5.8 billion km) away on average, about 40 times as far as Earth, in a region called the Kuiper Belt.
-   - A year on Pluto is 248 Earth years. A day on Pluto lasts 153 hours, or about 6 Earth days.
-   - Pluto has a thin atmosphere of nitrogen, methane and carbon monoxide. The atmosphere has a blue tint and distinct layers of haze.
-   - Pluto’s surface is far too cold, -378 to -396 degrees F (-228 to -238 C), to sustain life as we know it.
-   "/>
+                android:textSize="18dp"/>
+
+            <!-- Box1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/pea"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMALL WORLD"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto is about 1,400 miles (2,380 km) wide. That's about half the width of the United States, or 2/3 the width of Earth's moon."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/strawberry"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DEEP SPACE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto orbits the Sun about 3.6 billion miles (5.8 billion km) away on average, about 40 times as far as Earth, in a region called the Kuiper Belt."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box3 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/lemon"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SLOW JOURNEY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A year on Pluto is 248 Earth years. A day on Pluto lasts 153 hours, or about 6 Earth days."
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/geosanslight"
+                    android:textSize="17dp"
+                    />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box4 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/laveder"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMALL IN SIZE, BUT NOT IN IMPORTANT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto is officially classified as a dwarf planet."
+                        android:layout_marginTop="24dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/geosanslight"
+                    android:textSize="17dp"
+                    />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box5 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HAYZ DAY"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto has a thin atmosphere of nitrogen, methane and carbon monoxide. The atmosphere has a blue tint and distinct layers of haze."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box6 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/mint"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MOON DANCE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto has 5 moons. The largest, Charon, is so big that Pluto and Charon orbit each other like a double planet."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box7 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/babyblue"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RINGLESS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto has no ring system."
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/geosanslight"
+                    android:textSize="17dp"
+                    />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box8 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/lemon"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SOLE ENCOUNTER"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The only spacecraft to visit Pluto is NASA’s New Horizons, which passed close by in July 2015."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box9 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HARSH HABITAT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pluto’s surface is far too cold, -378 to -396 degrees F (-228 to -238 C), to sustain life as we know it."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box10 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/rose"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FROM THE MOUTHS OF BABES"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Venetia Burney, just 11 years old at the time, suggested the name Pluto in 1930."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
 
         </LinearLayout>
 
