@@ -26,5 +26,7 @@
             app:compactCalendarCurrentDayBackgroundColor="#280b45"
             app:compactCalendarMultiEventIndicatorColor="#fff"
             />
+
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
