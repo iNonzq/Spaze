@@ -39,26 +39,29 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
+                android:layout_marginTop="7dp"
                 android:text="Mars"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Planet Type: Terrestrial" />
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="Length of Year: 687 Earth Days" />
@@ -67,13 +70,14 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="312dp"
-                app:srcCompat="@drawable/mars_real2" />
+                app:srcCompat="@drawable/mars_real2"
+                android:layout_marginTop="15dp"/>
 
             <TextView
-                android:id="@+id/textView7"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="About Sun"
+                android:text="About Mars"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="3dp"
                 android:gravity="center"
@@ -88,8 +92,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="69dp"
-                    android:background="@color/lemon"
+                    android:layout_height="90dp"
+                    android:background="@color/babyblue"
                     />
 
                 <RelativeLayout
@@ -99,7 +103,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="BIGGEST"
+                        android:text="SMALLEST PLANET"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -111,7 +115,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="If the Sun were as tall as a typical front door, Earth would be the size of a dime, and Mars would be about as big as an aspirin tablet."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -130,8 +134,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="88dp"
-                    android:background="@color/rose"
+                    android:layout_height="90dp"
+                    android:background="@color/pea"
                     />
 
                 <RelativeLayout
@@ -141,7 +145,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MOST MASSIVE"
+                        android:text="FOUTH ROCK"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -153,7 +157,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Mars orbits our Sun, a star. Mars is the fourth planet from the Sun at an average distance of about 228 million km (142 million miles) or 1.52 AU."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -173,7 +177,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="@color/coral"
+                    android:background="@color/laveder"
                     />
 
                 <RelativeLayout
@@ -183,7 +187,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="DIFFERENT SPINS"
+                        android:text="LONGER DAYS"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -195,7 +199,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=“ ”
+                        android:text="One day on Mars takes a little over 24 hours. Mars makes a complete orbit around the Sun (a year in Martian time) in 687 Earth days."
                     android:layout_marginTop="24dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -214,8 +218,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:background="@color/babyblue"
+                    android:layout_height="90dp"
+                    android:background="@color/lemon"
                     />
 
                 <RelativeLayout
@@ -225,7 +229,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="CAN'T STAND ON IT"
+                        android:text="RUGGED TERRAIN"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -237,7 +241,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Mars is a rocky planet. Its solid surface has been altered by volcanoes, impacts, winds, crustal movement and chemical reactions."
                         android:layout_marginTop="24dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -256,7 +260,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="90dp"
                     android:background="@color/strawberry"
                     />
 
@@ -267,7 +271,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="RING"
+                        android:text="BRING A SPACESUIT"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -279,7 +283,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Mars has a thin atmosphere made up mostly of carbon dioxide (CO2), argon (Ar), nitrogen (N2), and a small amount of oxygen and water vapor."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -297,8 +301,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="@color/laveder"
+                    android:layout_height="50dp"
+                    android:background="@color/coral"
                     />
 
                 <RelativeLayout
@@ -308,7 +312,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="UNDER STUDY"
+                        android:text="DOUBLE MOONS"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -320,7 +324,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Mars has two moons named Phobos and Deimos."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -338,8 +342,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
-                    android:background="@color/pea"
+                    android:layout_height="50dp"
+                    android:background="@color/rose"
                     />
 
                 <RelativeLayout
@@ -349,7 +353,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ENERGY FOR LIFE"
+                        android:text="RINGLESS"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -361,7 +365,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=“ ”
+                        android:text="There are no rings around Mars."
                     android:layout_marginTop="24dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -379,8 +383,8 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
-                    android:background="@color/coral"
+                    android:layout_height="106dp"
+                    android:background="@color/pea"
                     />
 
                 <RelativeLayout
@@ -390,7 +394,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="NUCLEAR FUSION"
+                        android:text="MANY MISSIONS"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -402,7 +406,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Several missions have visited this planet, from flybys and orbiters to rovers on the surface. The first true Mars mission success was the Mariner 4 flyby in 1965."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -431,7 +435,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MOONLESS"
+                        android:text="TOUGH PLACE FOR LIFE"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -443,7 +447,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="At this time, Mars' surface cannot support life as we know it. Current missions are determining Mars' past and future potential for life."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
@@ -462,7 +466,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="@color/laveder"
+                    android:background="@color/strawberry"
                     />
 
                 <RelativeLayout
@@ -472,7 +476,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="WHAT WE SEE"
+                        android:text="RUSTY PLANET"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:gravity="center"
@@ -484,7 +488,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" "
+                        android:text="Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil and atmosphere to look red."
                         android:layout_marginTop="24dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
