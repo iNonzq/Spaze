@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
-    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia,Mar_dia,Sat_dia,Jup_dia,Ura_dia;
-    ImageButton s1,c1,s2,c2,s3,s4,s5,s6,s7,s8;
+    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia,Mar_dia,Sat_dia,Jup_dia,Ura_dia,Nep_dia;
+    ImageButton s1,c1,s2,c2,s3,s4,s5,s6,s7,s8,s9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -194,5 +194,28 @@ public class PagePlanet extends AppCompatActivity {
 
             }
         });
+
+        //Neptune Image Button
+        s9 = (ImageButton) findViewById(R.id.NepBtn);
+
+        s9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ShowPopup();
+                Nep_dia = new Dialog(PagePlanet.this);
+                Nep_dia.setContentView(R.layout.neptune_dialog);
+                c2 = (ImageButton) Nep_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Nep_dia.dismiss();
+                    }
+                });
+                Nep_dia.show();
+            }
+        });
+
+
     }
 }
