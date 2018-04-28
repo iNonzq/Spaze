@@ -8,8 +8,11 @@ import android.provider.CalendarContract;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.provider.CalendarContract.Events;
+import android.widget.ShareActionProvider;
 import android.widget.Toast;
 
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
@@ -77,6 +80,21 @@ public class PageSchedule extends AppCompatActivity {
 
     }
 
+    /*@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        mShareActionProvider = (ShareActionProvider) menu.findItem(R.id.shareButton).getActionProvider();
+        mShareActionProvider.setShareIntent(doShare());
+        return true;
+    }
+    public Intent doShare() {
+        // populate the share intent with data
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, "Put whatever you want");
+        return intent;
+    }*/
+
         /*public long getLongAsDate(int year, int month, int date) {
             Calendar calendar = new GregorianCalendar();
             calendar.set(Calendar.DAY_OF_MONTH, date);
@@ -85,7 +103,28 @@ public class PageSchedule extends AppCompatActivity {
             return calendar.getTimeInMillis();
 
         }*/
+        private ShareActionProvider mShareActionProvider;
 
+    @Override
+    public boolean onCreateOptionsMenu( Menu menu ) {
+        // Inflate menu resource file.
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        // Locate MenuItem with ShareActionProvider
+        MenuItem item = menu.findItem(R.id.shareButton);
+
+        // Fetch and store ShareActionProvider
+        mShareActionProvider = (ShareActionProvider) item.getActionProvider();
+        // Return true to display menu
+        return true;
+    }
+
+    // Call to update the share intent
+    private void setShareIntent(Intent shareIntent) {
+        if (mShareActionProvider != null) {
+            mShareActionProvider.setShareIntent(shareIntent);
+        }
+    }
 
 
     }
