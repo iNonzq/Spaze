@@ -39,9 +39,9 @@ public class PageSchedule extends AppCompatActivity {
         compactCalendar = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         compactCalendar.setUseThreeLetterAbbreviation(true);
 
-        Event ev1 = new Event(Color.WHITE, 1477040400000L, "Teachers' Professional Day");
+        final Event ev1 = new Event(Color.WHITE, 1477040400000L, "Teachers' Professional Day");
         compactCalendar.addEvent(ev1);
-        Event ev2 = new Event(Color.WHITE, 1525100573000L, "Full Moon");
+        final Event ev2 = new Event(Color.WHITE, 1525100573000L, "Full Moon");
         compactCalendar.addEvent(ev2);
         Event ev3 = new Event(Color.WHITE, 1525618973000L, "Eta Aquarids");
         compactCalendar.addEvent(ev3);
@@ -61,7 +61,8 @@ public class PageSchedule extends AppCompatActivity {
             @Override
             public void onDayClick(Date dateClicked) {
                 Context context = getApplicationContext();
-                    if (dateClicked.toString().compareTo("Fri Oct 21 00:00:00 AST 2016") == 0) {
+                if(dateClicked.equals(ev2)){
+                    //if (dateClicked.toString().compareTo("Fri Oct 21 00:00:00 AST 2016") == 0) {
                     //if(dateClicked.toString().compareTo("Saturday, April 28, 2018 9:00:00 AM")==0){
                         Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
                     }
