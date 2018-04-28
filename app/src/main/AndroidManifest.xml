@@ -23,7 +23,8 @@
         <activity android:name=".PageCourse" />
         <activity android:name=".PageSchedule" />
         <activity android:name=".PageSetting" />
-        <activity android:name=".PageRegister"></activity>
+        <activity android:name=".PageRegister" />
+        <activity android:name=".PageQuiz"></activity>
     </application>
 
 </manifest>

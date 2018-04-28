@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Header can be another image -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/coral" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/timkid"
+                android:gravity="center"
+                android:text="QUIZ"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="408dp"
+                android:background="@color/rose" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/geosanslight"
+                android:gravity="center"
+                android:text="Which star is the largest in the solar system?"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/amars" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/aneptune" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/asun"/>
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/aearth"/>
+
+                </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
