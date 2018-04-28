@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/imageView14"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="166dp"
             android:background="@drawable/aheadfact" />
 
         <ScrollView
