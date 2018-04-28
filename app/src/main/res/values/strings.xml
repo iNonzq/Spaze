@@ -5,6 +5,7 @@
     <string name="login_button">LogIn</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
 
+
     <string-array name="names1">
         <item>Select</item>
         <item>Level 1</item>
@@ -32,19 +33,12 @@
         <item>Level 11</item>
         <item>Level 12</item>
     </string-array>
-    <string name="signp_button">Signup</string>
-    <string name="error_message_name">Enter Full Name</string>
-    <string name="error_message_email">Enter Valid Email</string>
-    <string name="error_message_password">Enter Password</string>
-    <string name="success_message">Registration Successful</string>
-    <string name="error_email_exists">Email Already Exists</string>
-    <string name="error_password_match">Password Does Not Matches</string>
-    <string name="error_valid_email_password">Wrong Email or Password</string>
-    <string name="text_already_member">Already a member? Login</string>
-    <string name="hint_name">Name</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_password">Password</string>
-    <string name="hint_confirm_password">Confirm Password</string>
-    <string name="text_login">Login</string>
-    <string name="text_register">Register</string>
-    <string name="text_member">Already a member? Login</string></resources>
+    <string name="signup_button">Signup</string>
+    <string name="regis_name">Name</string>
+    <string name="regis_email">Email address</string>
+    <string name="regis_uname">Username</string>
+    <string name="regis_password">Password</string>
+    <string name="regis_repassword">Confirm Password</string>
+
+
+</resources>

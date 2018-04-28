@@ -2,7 +2,7 @@ package com.example.nonz.spaze;
 
 public class Contact {
 
-    String name, email, pass;
+    String name, email, uname, pass;
 
 
     public void setName(String name)
@@ -21,6 +21,8 @@ public class Contact {
     {
         return this.email;
     }
+    public void setUname(String uname){this.uname = uname;}
+    public String getUname(){ return this.uname; }
     public void setPass(String pass)
     {
         this.pass = pass;
