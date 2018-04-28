@@ -12,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.provider.CalendarContract.Events;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ShareActionProvider;
 import android.widget.Toast;
 
@@ -25,7 +27,7 @@ import java.util.GregorianCalendar;
 import java.util.Locale;
 
 public class PageSchedule extends AppCompatActivity {
-
+    Button a1;
     CompactCalendarView compactCalendar;
     private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM-yyyy", Locale.getDefault());
 
@@ -34,6 +36,14 @@ public class PageSchedule extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_schedule);
 
+        a1 = (Button) findViewById(R.id.button6);
+        a1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent A1 = new Intent(PageSchedule.this,CalendarDetail.class);
+                startActivity(A1);
+            }
+        });
 
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(false);
