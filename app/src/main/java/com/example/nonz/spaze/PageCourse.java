@@ -54,7 +54,7 @@ public class PageCourse extends AppCompatActivity {
                 String s1=((TextView)view1).getText().toString();
                 switch(s1) {
                     case ("Level 1") : // for item 1
-                        Intent i = new Intent(PageCourse.this,PageSchedule.class);
+                        Intent i = new Intent(PageCourse.this,PageQuiz.class);
                         startActivity(i);
                         break;
                     case ("Level 2") :
