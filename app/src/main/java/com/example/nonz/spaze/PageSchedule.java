@@ -105,7 +105,7 @@ public class PageSchedule extends AppCompatActivity {
         }*/
         private ShareActionProvider mShareActionProvider;
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu( Menu menu ) {
         // Inflate menu resource file.
         getMenuInflater().inflate(R.menu.menu, menu);
@@ -124,7 +124,7 @@ public class PageSchedule extends AppCompatActivity {
         if (mShareActionProvider != null) {
             mShareActionProvider.setShareIntent(shareIntent);
         }
-    }
+    }*/
 
 
     }

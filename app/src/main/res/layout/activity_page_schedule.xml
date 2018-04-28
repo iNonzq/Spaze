@@ -57,34 +57,22 @@
 
                     <ImageView
                         android:id="@+id/imageView11"
-                        android:layout_width="114dp"
+                        android:layout_width="35dp"
                         android:layout_height="70dp"
+                        android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/taurid"
-                        android:layout_gravity="center"/>
+                        app:srcCompat="@drawable/taurid" />
 
                     <TextView
                         android:id="@+id/text"
-                        android:layout_width="250dp"
+                        android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/geosanslight"
                         android:text="6-7 May: Eta Aquarids.\n\nThe Eta Aquarids is an above average shower, capable of producing up to 60 meteors per hour at its peak. Most of the activity is seen in the Southern Hemisphere."
                         android:textSize="14dp" />
-
-                    <Button
-                        android:id="@+id/shareButton"
-                        android:layout_width="113dp"
-                        android:layout_height="39dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:actionProviderClass="android.widget.ShareActionProvider"
-                        android:showAsAction="always"
-                        android:text="share"
-                        android:textSize="10dp"/>
 
                 </LinearLayout>
 
@@ -107,6 +95,7 @@
                         android:layout_width="288dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/geosanslight"
                         android:text="9 May: Jupiter at Opposition. \n\nThe giant planet will be at its closest approach to Earth and its face will be fully illuminated by the Sun. It will be brighter than any other time of the year and will be visible all night long."
                         android:textSize="14dp" />
@@ -132,6 +121,7 @@
                         android:layout_width="288dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/geosanslight"
                         android:text="15 May: New Moon. \n\nThe Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phase occurs at 11:48 UTC. "
                         android:textSize="14dp" />
@@ -159,6 +149,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
                         android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/geosanslight"
                         android:text="29 May: Full Moon. \n\nThe Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminated. This phase occurs at 14:19 UTC."
                         android:textSize="14dp" />
