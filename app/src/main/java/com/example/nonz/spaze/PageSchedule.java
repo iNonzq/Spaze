@@ -46,7 +46,7 @@ public class PageSchedule extends AppCompatActivity {
             @Override
             public void onDayClick(Date dateClicked) {
                 Context context = getApplicationContext();
-                    if(dateClicked.toString().compareTo("Sun 29 April 09:00:00")==0){
+                    if(dateClicked.toString().compareTo("Saturday, April 28, 2018 9:00:00 AM")==0){
                         Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
                     }
             }
