@@ -39,8 +39,8 @@ public class PageSchedule extends AppCompatActivity {
         a1 = (Button) findViewById(R.id.button6);
         a1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent A1 = new Intent(PageSchedule.this,CalendarDetail.class);
+            public void onClick(View a1) {
+                Intent A1 = new Intent(PageSchedule.this,MainActivity.class);
                 startActivity(A1);
             }
         });
