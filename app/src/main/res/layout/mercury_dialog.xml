@@ -39,14 +39,16 @@
                 android:fontFamily="@font/timkid"
                 android:gravity="center"
                 android:text="Mercury"
+                android:layout_marginTop="7dp"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
+                android:layout_gravity="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
@@ -54,11 +56,12 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/geosanslight"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:layout_gravity="center"
                 android:textColor="@color/white"
                 android:text="Length of Year: 88 Earth Days" />
 
@@ -66,21 +69,434 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="273dp"
+                android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/mercury" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/geosanslight"
-                android:textSize="20dp"
+                android:text="About Mercury"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:fontFamily="@font/timkid"
                 android:textColor="@color/white"
-                android:text="   - Mercury is the smallest planet in our solar system - only slightly larger than the Earth's moon. If the sun were as tall as a typical front door, Earth would be the size of a nickel and Mercury would be about as big as a green pea.
-   - It is the closest planet to the sun at a distance of about 58 million km (36 million miles)
-   - One day on Mercury (the time it takes for Mercury to rotate or spin once with respect to the stars) takes 59 Earth days. One day-night cycle on Mercury takes 175.97 Earth days. Mercury makes a complete orbit around the sun (a year in Mercury time) in just 88 Earth days.
-   - Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth's moon.
-   - Standing on Mercury's surface at its closest point to the sun, the sun would appear more than three times larger than it does on Earth.
-"/>
+                android:textSize="18dp"/>
+
+            <!-- Box1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:background="@color/rose"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMALLEST"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mercury is the smallest planet in our solar system - only slightly larger than the Earth's moon. If the sun were as tall as a typical front door, Earth would be the size of a nickel and Mercury would be about as big as a green pea."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/pea"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="INSIDER"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="It is the closest planet to the sun at a distance of about 58 million km (36 million miles) or 0.39 AU."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box3 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:background="@color/babyblue"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LONG DAY, SHORT YEARS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="One day on Mercury (the time it takes for Mercury to rotate or spin once with respect to the stars) takes 59 Earth days. One day-night cycle on Mercury takes 175.97 Earth days. Mercury makes a complete orbit around the sun (a year in Mercury time) in just 88 Earth days."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box4 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/lemon"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ROUGH SURFACE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth's moon."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box5 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="147dp"
+                    android:background="@color/strawberry"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CAN'T BREATHE IT"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mercury's thin atmosphere, or exosphere, is composed mostly of oxygen (O2), sodium (Na), hydrogen (H2), helium (He), and potassium (K). Atoms that are blasted off the surface by the solar wind and micrometeoroid impacts create Mercury's exosphere."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box6 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/mint"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MOONLESS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mercury has no moons."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box7 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/rose"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RINGLESS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="There are no rings around Mercury."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box8 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/pea"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOUGH PLACE TO LIVE"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No evidence for life has been found on Mercury. Daytime Temperatures can reach 430 degrees Celsius (800 degrees Fahrenheit) and drop to -180 degrees Celsius (-290 degrees Fahrenheit) at night. It is unlikely life (as we know it) could survive on this planet."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box9 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/coral"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BIG SUN"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Standing on Mercury's surface at its closest point to the sun, the sun would appear more than three times larger than it does on Earth."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Box10 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@color/strawberry"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ROBOTIC VISITORS"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:fontFamily="@font/geosanslight"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Only two missions have visited this rocky planet: Mariner 10 in 1974-5 and MESSENGER, which flew past Mercury three times before going into orbit around Mercury in 2011."
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/geosanslight"
+                        android:textSize="17dp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
 
         </LinearLayout>
 

@@ -1,17 +1,10 @@
 package com.example.nonz.spaze;
 
 public class Contact {
-    int id;
+
     String name, email, uname, pass;
 
-    public void setId(int id)
-    {
-        this.id = id;
-    }
-    public int getId()
-    {
-        return this.id;
-    }
+
     public void setName(String name)
     {
         this.name = name;
