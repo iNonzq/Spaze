@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PagePlanet extends AppCompatActivity {
-    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia,Mar_dia,Sat_dia;
-    ImageButton s1,c1,s2,c2,s3,s4,s5,s6;
+    Dialog Sun_dia,Mer_dia,Ven_dia,Eth_dia,Mar_dia,Sat_dia,Jup_dia;
+    ImageButton s1,c1,s2,c2,s3,s4,s5,s6,s7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -151,6 +151,26 @@ public class PagePlanet extends AppCompatActivity {
             }
         });
 
+        //Jupiter Image Button
+        s7 = (ImageButton) findViewById(R.id.JupBtn);
 
+        s7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ShowPopup();
+                Jup_dia = new Dialog(PagePlanet.this);
+                Jup_dia.setContentView(R.layout.jupiter_dialog);
+                c2 = (ImageButton) Jup_dia.findViewById(R.id.closebtn2);
+                c2.setEnabled(true);
+                c2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Jup_dia.dismiss();
+                    }
+                });
+                Jup_dia.show();
+
+            }
+        });
     }
 }
