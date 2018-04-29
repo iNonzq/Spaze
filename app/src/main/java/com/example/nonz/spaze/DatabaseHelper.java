@@ -79,7 +79,7 @@ public class DatabaseHelper  extends SQLiteOpenHelper{
 
     private static final int DATABASE_VERSION = 1;
 
-    private static final String DATABASE_NAME = "UserManager.db";
+    private static final String DATABASE_NAME = "SpazeDB.db";
 
     private static final String TABLE_USER = "user";
 

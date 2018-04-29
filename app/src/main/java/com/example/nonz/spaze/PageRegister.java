@@ -1,6 +1,7 @@
 package com.example.nonz.spaze;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
@@ -68,13 +69,13 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
     private NestedScrollView nestedScrollView;
 
     private TextInputLayout textInputLayoutName;
-    private TextInputLayout textInputLayoutuName;
+    //private TextInputLayout textInputLayoutuName;
     private TextInputLayout textInputLayoutEmail;
     private TextInputLayout textInputLayoutPassword;
     private TextInputLayout textInputLayoutConfirmPassword;
 
     private TextInputEditText name;
-    private TextInputEditText uname;
+    //private TextInputEditText uname;
     private TextInputEditText email;
     private TextInputEditText pass;
     private TextInputEditText repass;
@@ -101,13 +102,13 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
         nestedScrollView = (NestedScrollView) findViewById(R.id.nestedScrollView);
 
         textInputLayoutName = (TextInputLayout) findViewById(R.id.textInputLayoutName);
-        textInputLayoutuName = (TextInputLayout) findViewById(R.id.textInputLayoutuName);
+        //textInputLayoutuName = (TextInputLayout) findViewById(R.id.textInputLayoutuName);
         textInputLayoutEmail = (TextInputLayout) findViewById(R.id.textInputLayoutEmail);
         textInputLayoutPassword = (TextInputLayout) findViewById(R.id.textInputLayoutPassword);
         textInputLayoutConfirmPassword = (TextInputLayout) findViewById(R.id.textInputLayoutrePassword);
 
         name = (TextInputEditText) findViewById(R.id.name);
-        uname = (TextInputEditText) findViewById(R.id.uname);
+        //uname = (TextInputEditText) findViewById(R.id.uname);
         email = (TextInputEditText) findViewById(R.id.email);
         pass = (TextInputEditText) findViewById(R.id.pass);
         repass = (TextInputEditText) findViewById(R.id.repass);
@@ -115,6 +116,7 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
         appCompatButtonRegister = (AppCompatButton) findViewById(R.id.appCompatButtonRegister);
 
         appCompatTextViewLoginLink = (AppCompatTextView) findViewById(R.id.appCompatTextViewLoginLink);
+
     }
 
     private void initListeners(){
@@ -135,7 +137,9 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
                 postDataToSQLite();
                 break;
             case R.id.appCompatTextViewLoginLink:
-                finish();
+                //finish();
+                Intent A4 = new Intent(PageRegister.this,PageLogin.class);
+                startActivity(A4);
                 break;
         }
     }
@@ -144,9 +148,9 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
         if (!inputValidation.isInputEditTextFilled(name, textInputLayoutName, getString(R.string.error_message_name))) {
             return;
         }
-        if (!inputValidation.isInputEditTextFilled(uname, textInputLayoutuName, getString(R.string.error_message_name))) {
+        /*if (!inputValidation.isInputEditTextFilled(uname, textInputLayoutuName, getString(R.string.error_message_name))) {
             return;
-        }
+        }*/
         if (!inputValidation.isInputEditTextFilled(email, textInputLayoutEmail, getString(R.string.error_message_email))) {
             return;
         }
@@ -163,7 +167,7 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
 
         if (!databaseHelper.checkUser(email.getText().toString().trim())) {
 
-            user.setName(uname.getText().toString().trim());
+            //user.setName(uname.getText().toString().trim());
             user.setEmail(email.getText().toString().trim());
             user.setPassword(pass.getText().toString().trim());
 
@@ -184,7 +188,7 @@ public class PageRegister extends AppCompatActivity implements View.OnClickListe
 
     private void emptyInputEditText(){
         name.setText(null);
-        uname.setText(null);
+        //uname.setText(null);
         email.setText(null);
         pass.setText(null);
         repass.setText(null);

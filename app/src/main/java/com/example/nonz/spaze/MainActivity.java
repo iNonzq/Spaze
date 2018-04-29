@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         a5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent A5 = new Intent(MainActivity.this,PageSetting.class);
+                Intent A5 = new Intent(MainActivity.this,PageRegister.class);
                 startActivity(A5);
             }
         });
