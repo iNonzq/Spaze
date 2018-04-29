@@ -26,7 +26,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-public class PageSchedule extends AppCompatActivity {
+public class DetailCalendar extends AppCompatActivity {
     Button a1;
     CompactCalendarView compactCalendar;
     private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM-yyyy", Locale.getDefault());
@@ -35,15 +35,6 @@ public class PageSchedule extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_schedule);
-
-        a1 = (Button) findViewById(R.id.button6);
-        a1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View a1) {
-                Intent A1 = new Intent(PageSchedule.this,DetailCalendar.class);
-                startActivity(A1);
-            }
-        });
 
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(false);
@@ -77,8 +68,8 @@ public class PageSchedule extends AppCompatActivity {
                 if(dateClicked.equals(ev2)){
                     //if (dateClicked.toString().compareTo("Fri Oct 21 00:00:00 AST 2016") == 0) {
                     //if(dateClicked.toString().compareTo("Saturday, April 28, 2018 9:00:00 AM")==0){
-                        Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
-                    }
+                    Toast.makeText(context, "Test", Toast.LENGTH_SHORT).show();
+                }
             }
             //test
 
@@ -105,15 +96,15 @@ public class PageSchedule extends AppCompatActivity {
         return intent;
     }*/
 
-        /*public long getLongAsDate(int year, int month, int date) {
-            Calendar calendar = new GregorianCalendar();
-            calendar.set(Calendar.DAY_OF_MONTH, date);
-            calendar.set(Calendar.MONTH, month - 1);
-            calendar.set(Calendar.YEAR, year);
-            return calendar.getTimeInMillis();
+    /*public long getLongAsDate(int year, int month, int date) {
+        Calendar calendar = new GregorianCalendar();
+        calendar.set(Calendar.DAY_OF_MONTH, date);
+        calendar.set(Calendar.MONTH, month - 1);
+        calendar.set(Calendar.YEAR, year);
+        return calendar.getTimeInMillis();
 
-        }*/
-        private ShareActionProvider mShareActionProvider;
+    }*/
+    private ShareActionProvider mShareActionProvider;
 
     /*@Override
     public boolean onCreateOptionsMenu( Menu menu ) {
@@ -137,5 +128,5 @@ public class PageSchedule extends AppCompatActivity {
     }*/
 
 
-    }
+}
 
