@@ -18,8 +18,8 @@ public class PageSetting extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent A1 = new Intent(PageSetting.this,PageRegister.class);
-                startActivity(A1);
+                Intent B1 = new Intent(PageSetting.this, PageRegister.class);
+                startActivity(B1);
             }
         });
 
@@ -27,12 +27,11 @@ public class PageSetting extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent A1 = new Intent(PageSetting.this,PageLogin.class);
-                startActivity(A1);
+                Intent B2 = new Intent(PageSetting.this,PageLogin.class);
+                startActivity(B2);
             }
         });
 
-        String username = getIntent().getStringExtra("username");
     }
 }
 
