@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="128dp"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
+
                     android:background="@color/white"
                     android:fontFamily="@font/geosanslight"
                     android:gravity="center"
@@ -71,6 +71,14 @@
                     tools:layout_editor_absoluteY="244dp" />
 
                 <!-- fact2 -->
+
+                <Button
+                    android:id="@+id/SButton"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Share it" />
 
                 <ImageView
                     android:id="@+id/imageView2"
