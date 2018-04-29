@@ -104,7 +104,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="240dp"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/geosanslight"
                     android:gravity="center"
@@ -112,6 +111,13 @@
                     android:text="     Uranus appears to be a featureless blue ball upon first glance, but this gas giant of the outer solar system is pretty weird upon closer inspection. First, the planet rotates on its side for reasons scientists haven't quite figured out. The most likely explanation is that it underwent some sort of one or more titanic collisions in the ancient past. In any case, the tilt makes Uranus unique among the solar system planets. "
                     android:textColor="#000000"
                     android:textSize="19dp" />
+                <Button
+                    android:id="@+id/SButton2"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Share it" />
 
                 <!-- fact 3 -->
                 <ImageView
@@ -138,7 +144,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="160dp"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/geosanslight"
                     android:gravity="center"
@@ -146,6 +151,14 @@
                     android:text="    This is tricky one to get your head around but a year on Venus (that is the length of time it takes to complete one full orbit around the Sun) is 224.7 Earth days. However it takes 243 Earth days to rotate on its axis just once."
                     android:textColor="#000000"
                     android:textSize="19dp" />
+
+                <Button
+                    android:id="@+id/SButton3"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Share it" />
 
                 <!-- fact 4 -->
                 <ImageView
@@ -172,7 +185,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="190dp"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/geosanslight"
                     android:gravity="center"
@@ -180,6 +192,14 @@
                     android:text="     Ancient astronomers once believed the Earth was at the centre of the Universe but now we know that the Sun is at the centre of our Solar System and our planets orbit the Sun. The Sun makes up 99.8% of the entire mass of the whole Solar System. One million Earths would be needed to be the same size as the Sun. "
                     android:textColor="#000000"
                     android:textSize="19dp" />
+
+                <Button
+                    android:id="@+id/SButton4"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Share it" />
 
                 <!-- fact 5 -->
                 <ImageView
@@ -206,7 +226,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="240dp"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/geosanslight"
                     android:gravity="center"
@@ -216,7 +235,13 @@
                     android:textSize="19dp"
                     tools:layout_editor_absoluteX="207dp"
                     tools:layout_editor_absoluteY="163dp" />
-
+                <Button
+                    android:id="@+id/SButton5"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Share it" />
 
             </LinearLayout>
 
