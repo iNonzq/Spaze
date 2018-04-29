@@ -8,9 +8,13 @@ public class Question {
     private int answer;
 
     public String mQuestion[] = {
-        "Which is the first planet in Solar system?", "Which is the name of the second planet in Solar system?",
-            "Which is the largest planet in Solar system?", "Which planet is an only dwarf planet in Solar system?",
-            "What comes after Uranus?", "What comes before Mars?", "What type of the planet Jupiter is?"
+        "Which is the first planet in Solar system?",
+            "Which is the name of the second planet in Solar system?",
+            "Which is the largest planet in Solar system?",
+            "Which planet is an only dwarf planet in Solar system?",
+            "What comes after Uranus?",
+            "What comes before Mars?",
+            "What type of the planet Jupiter is?"
     };
 
     private String mChoices[][]= {{"Mercury","Uranus","Earth","Neptune"},{"Mars","Saturn","Venus","Neptune"},{"Earth","Uranus","Jupiter","Saturn"}
