@@ -36,15 +36,6 @@ public class PageSchedule extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_schedule);
 
-        a1 = (Button) findViewById(R.id.button6);
-        a1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View a1) {
-                Intent A1 = new Intent(PageSchedule.this,DetailCalendar.class);
-                startActivity(A1);
-            }
-        });
-
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(false);
         actionBar.setTitle(null);
