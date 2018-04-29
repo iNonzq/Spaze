@@ -44,7 +44,7 @@ public class PageQuiz extends AppCompatActivity {
         score = (TextView) findViewById(R.id.score);
         question = (TextView) findViewById(R.id.question);
 
-        score.setText("Score" + mScore);
+        score.setText("Score " + mScore);
         updateQuestion(r.nextInt(mQuestionLength));
 
         answer1.setOnClickListener(new View.OnClickListener() {
