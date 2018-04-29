@@ -23,7 +23,7 @@ public class PageSetting extends AppCompatActivity {
             }
         });
 
-        b2 = (Button) findViewById(R.id.loginBtn);
+        b2 = (Button) findViewById(R.id.LoginBtn);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

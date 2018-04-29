@@ -40,7 +40,6 @@
     <string name="regis_password">Password</string>
     <string name="regis_repassword">Confirm Password</string>
     <string name="text_member">Already a member? Login</string>
-
     <string name="error_message_name">Enter Full Name</string>
     <string name="error_message_email">Enter Valid Email</string>
     <string name="error_message_age">Enter Age</string>
