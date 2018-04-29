@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class PageCourse extends AppCompatActivity {
 
+    //private static final int REQUEST_CODE_QUIZ = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

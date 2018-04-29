@@ -1,4 +1,4 @@
-package com.example.nonz.spaze;
+/*package com.example.nonz.spaze;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -96,3 +96,4 @@ public class QuizDbHelper extends SQLiteOpenHelper {
 
 
 }
+*/
