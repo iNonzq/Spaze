@@ -13,7 +13,7 @@ public class PageFact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_fact);
-        SButton1 = (Button)findViewById(R.id.SButton);
+        SButton1 = (Button)findViewById(R.id.SButton1);
         SButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
