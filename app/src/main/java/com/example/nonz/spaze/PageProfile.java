@@ -17,6 +17,6 @@ public class PageProfile extends AppCompatActivity{
 
         textWelcome = findViewById(R.id.name);
     }
-
+    
 
 }
