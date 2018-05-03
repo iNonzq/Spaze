@@ -155,5 +155,10 @@
     </ScrollView>
 
 
+<<<<<<< HEAD
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+=======
+>>>>>>> 325f5b3af7687ef964bf7511fceedd7a1235a764
 
     </android.support.constraint.ConstraintLayout>
